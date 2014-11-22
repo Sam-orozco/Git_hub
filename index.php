@@ -10,7 +10,7 @@ $done = false;
 $db = mysql_connect($host , $user , $pass);
 if(!$db)
 {
-    die("you done fucked up");
+    die("Did not connect");
 
 
 }
